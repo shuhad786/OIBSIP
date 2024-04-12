@@ -1,0 +1,47 @@
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.li-style {
+	list-style-type: none;
+}
+
+.gap-25 {
+	gap: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.pad-none {
+	padding: 0px;
+}
+
+.pad-20 {
+	padding: 0px 20px 0 20px;
+}
+
+.bg-green {
+	background-color: green;
+}
