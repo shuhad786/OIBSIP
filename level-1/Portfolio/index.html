@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico@Salsa&Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8a3c9493da.js" crossorigin="anonymous"></script>
+    <title>Oasis Infobyte Portfolio</title>
+</head>
+<body>
+    <main id="home" class="flex flex-column">
+      <nav class="flex justify-end align-center pad-20">
+        <ul class="flex justify-end align-center">
+          <li class="">
+            <a class="text top-link flex justify-between align-center home" href="#home">Home<i class="fa-solid fa-house"></i></a>
+          </li>
+          <li class="">
+            <a class="text top-link flex justify-between align-center about" href="#about">About <i class="fa-solid fa-circle-question"></i></a>
+          </li>
+          <li class="">
+            <a class="text top-link flex justify-between align-center projects" href="#projects">Projects <i class="fa-solid fa-laptop-file"></i></a>
+          </li>
+          <li class="">
+            <a class="text top-link flex justify-between align-center contact" href="#contact">Contact Me <i class="fa-solid fa-envelope"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="margin-top gap-box flex flex-column">
+        <div id="image">
+          <h1 class="bg-text">Shuhad Loofer</h1>
+          <h3 class="bg-text-2">Full Stack Developer<br/>Software Engineer</h3>
+        </div>
+
+        <section id="about" class="box-size-2 pad-20">
+          <h1 class="open-sans">About Me</h1>
+          <div class="about">
+            <img id="profile-image" src="./images/20240419_142127.jpg" />
+            <p>
+              "Hey there! I'm a Full Stack Developer with a knack for front-end web design. I've got my hands dirty with back-end languages like Nodejs, C#, and Ruby on Rails. I've also dabbled a bit in Java and Python, and I'm always up for learning something new. But enough about work, let's talk fun stuff! 😄
+
+              I'm a lifelong learner with a passion for creating. Whether it's coding up a new website or crafting real-world objects, I love bringing ideas to life. In a past life, I was a Refrigeration Technician for 6 years, a journey that honed my problem-solving skills and taught me to embrace every challenge head-on. So, whether it's a complex coding problem or a real-world puzzle, I'm your guy!"
+            </p>
+          </div>
+        </section>
+
+        <section id="projects" class="box-size-2 flex flex-column justify-center align-center pad-20">
+          <h1 class="open-sans text-start">
+            Projects
+          </h1>
+          <div class="grid-projects">
+            <div class="card">
+              <img src="./images/pexels-gabriel-peter-219375-696644.jpg"/>
+              <p>project summary that will go here for any project so type abit about what it will be and show off your skills</p>
+              <div class="card-button flex justify-evenly">
+                <button class="">View Live</button>
+                <button class="">View Source</button>
+              </div>
+              <ul class="flex align-center justify-center">
+                <li>html</li>
+                <li>react</li>
+                <li>css</li>
+                <li>nodejs</li>
+                <li>tailwind css</li>
+                <li>typescript</li>
+              </ul>
+            </div>
+            <div class="card">
+              <img src="./images/pexels-gabriel-peter-219375-696644.jpg"/>
+              <p>project summary that will go here for any project so type abit about what it will be and show off your skills</p>
+              <div class="card-button flex justify-evenly">
+                <button class="">View Live</button>
+                <button class="">View Source</button>
+              </div>
+              <ul class="flex align-center justify-center">
+                <li>html</li>
+                <li>react</li>
+                <li>css</li>
+                <li>nodejs</li>
+                <li>tailwind css</li>
+                <li>typescript</li>
+              </ul>
+            </div>
+            <div class="card">
+              <img src="./images/pexels-gabriel-peter-219375-696644.jpg"/>
+              <p>project summary that will go here for any project so type abit about what it will be and show off your skills</p>
+              <div class="card-button flex justify-evenly">
+                <button class="">View Live</button>
+                <button class="">View Source</button>
+              </div>
+              <ul class="flex align-center justify-center">
+                <li>html</li>
+                <li>react</li>
+                <li>css</li>
+                <li>nodejs</li>
+                <li>tailwind css</li>
+                <li>typescript</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="align-center pad-20 flex justify-evenly">
+          <div class="flex flex-column">
+            <h2 class="open-sans">
+              Contact me
+            </h2>
+            <p class="contact-p">"Connect with me, <br/>because I am Thee Dev you need!."</p>
+          </div>
+          
+            <form class="form flex flex-column align-start" action="/submit\_form" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+              <label for="message">Message:</label> 
+              <textarea id="message" name="message" rows="8" cols="40"></textarea><br> 
+              <button type="submit" value="Submit">Submit</button>
+            </form>
+         
+        </section>
+      </div>
+    </main>
+</body>
+</html>
