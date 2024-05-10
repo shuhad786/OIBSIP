@@ -40,7 +40,6 @@ input[type="text"] {
   border-radius: 10px;
   border: none;
   box-shadow: inset 0 0 10px rgb(167, 167, 167);
-  /* background-color: transparent; */
   font-size: large;
   font-weight: 600;
   color: red;
@@ -81,17 +80,23 @@ button {
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 1em;
   display: block;
   justify-content: center;
   align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 15%;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
 }
 
 .item-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
   background-color: transparent;
   backdrop-filter: blur(10px);
   box-shadow: 0 0 15px whitesmoke;
@@ -103,9 +108,24 @@ ul {
 .item-container li {
   flex-grow: 1;
   margin-right: 20px;
-  padding: 1em;
+  padding: 0.4em;
   width: 100%;
   color: rgb(0, 255, 170);
   font-size: large;
   font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 255, 170);
+  border-radius: 10px;
 }
